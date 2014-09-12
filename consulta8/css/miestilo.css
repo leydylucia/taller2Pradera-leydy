@@ -1,0 +1,83 @@
+/*comentarios*/
+*{
+margin:0px;
+padding:0px;
+}
+
+
+
+
+
+header,nav,section,aside,focter,nav{/*etiquetas fijas*/
+display:block;}
+
+h1{
+text-shadow: rgb(0,0,150) 3px 3px 11px;/*5PX ES EL RADIO Y SE PUEDE AUMENTAR Y LOS DOS 3PX ES INTENCIDAD*/
+font: bold 50px agencifb, sans-serif;/*todo aquel que tenga h1 tendra un aumento segun lo especificado en font*/
+}  
+                                    
+h2{
+font: 20px arial, sans-serif;/*todo aquel que tenga h1 tendra un aumento segun lo especificado en font*/
+}
+h3{
+font: bold 30px arial, sans-serif;/*todo aquel que tenga h1 tendra un aumento segun lo especificado en font*/
+}
+h4{
+font: 20px calibri, sans-serif;/*todo aquel que tenga h1 tendra un aumento segun lo especificado en font*/
+}
+
+
+
+
+									
+body{
+text-align: center;
+background:white;/*colo azul lila*/
+}
+
+#baseglobal {
+width:85%;
+background:#ccccff;/*color lila*/
+}
+
+#Encabezados{ /* para crear estilos uncios*/
+background: -webkit-linear-gradient(top,pink,#ccffff);/*color de rosa a azul claro*/
+background:-moz-linear-gradient(top,pink,#ccffff);/*color de rosa a azul claro*/
+border: 2px solid red;/*da el color al borde del anuncio*/
+padding: 15px;
+color:#66cc33;/*color verde oscuro para las letras*/
+-moz-border-radius:30px 20px 20px 30px;/*40,20-alter la esquina inferior izquierda y superiorderecha*/
+-webkit-border-radius:30px 20px 20px 30px;
+border-radius: 30px 20px 20px 30px;/*para poner curviado las orillas*/
+
+-moz-box-shadow:rgb(150,100,150) 6px 5px 5px;
+-webkit-box-shadow:rgb(150,100,150) 6px 5px 5px;
+box-shadow:rgb(150,100,150) 6px 5px 5px;
+
+}
+
+#contenido {
+background:#ccffff;/*color fusia*/
+list-style:none;
+width:90%;/*es el ancho */
+padding:10px;
+float:left;
+margin-left:20px;
+-moz-border-radius:50px; /*moz_border,wekit_border,border-radius
+                          *y margin-botton hace referencia a los 
+						  * bordes del cuadro de color*/
+-webkit-border-radius:50px;
+border-radius: 50px;
+margin-bottom:50px;
+}
+
+
+article header{
+background:#ccccff;/*color lila*/
+color:#cc3399;/*color de letra rosa*/
+border: 3px solid #cc66cc;/*color del borde morado*/
+-moz-border-radius:30px;
+-webkit-border-radius:30px;
+border-radius: 30px;
+}
+
